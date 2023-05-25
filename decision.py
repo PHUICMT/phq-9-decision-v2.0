@@ -1,6 +1,6 @@
 import pickle
 
-clf = pickle.load(open("LableDecisionTreeModel_New.pkl", "rb"))
+clf = pickle.load(open("LableDecisionTreeModelV3.pkl", "rb"))
 
 def predict(data):
     try: 
